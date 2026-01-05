@@ -52,7 +52,7 @@ const Hero = () => {
                         variants={container(0)}
                         initial="hidden"
                         animate="visible"
-                        className="text-xl lg:text-3xl text-accent font-light tracking-wide mb-4">
+                        className="text-2xl lg:text-4xl text-accent font-light tracking-wide mb-4">
                         Hi, my name is
                     </motion.h2>
                     <motion.h1
@@ -66,7 +66,7 @@ const Hero = () => {
                         variants={container(0.5)}
                         initial="hidden"
                         animate="visible"
-                        className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent h-10 block">
+                        className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent h-10 block">
                         {text}
                         <span className="text-purple-500 animate-pulse">|</span>
                     </motion.span>
@@ -74,7 +74,7 @@ const Hero = () => {
                         variants={container(1)}
                         initial="hidden"
                         animate="visible"
-                        className="my-2 max-w-xl py-6 font-light tracking-tighter">
+                        className="my-2 max-w-xl py-6 font-light tracking-tighter text-xl">
                         {HERO_CONTENT}
                     </motion.p>
                     <motion.a

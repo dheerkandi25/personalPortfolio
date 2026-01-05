@@ -5,15 +5,15 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 const Contact = () => {
     return (
         <div name="contact" className="border-b border-neutral-900 pb-20">
-            <h1 className="my-10 text-center text-4xl">Get in Touch</h1>
-            <div className="text-center tracking-tighter">
+            <h1 className="my-10 text-center text-5xl">Get in Touch</h1>
+            <div className="text-center tracking-tighter text-lg">
                 <p className="my-4">{CONTACT.address}</p>
                 <p className="my-4">{CONTACT.phoneNo}</p>
                 <a href={`mailto:${CONTACT.email}`} className="border-b hover:text-accent duration-200">
                     {CONTACT.email}
                 </a>
             </div>
-            <div className="mt-8 flex justify-center gap-6 text-3xl">
+            <div className="mt-8 flex justify-center gap-6 text-4xl">
                 {SOCIAL_LINKS.map((link, index) => {
                     const Icon = link.icon;
                     return (
